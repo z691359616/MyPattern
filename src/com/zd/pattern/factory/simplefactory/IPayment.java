@@ -1,5 +1,5 @@
 package com.zd.pattern.factory.simplefactory;
 
-public interface Payment {
+public interface IPayment {
 	void pay();
 }

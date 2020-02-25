@@ -1,7 +1,7 @@
 package com.zd.pattern.factory.simplefactory;
 
 public class PaymentFactory {
-	public Payment createPayment(Class<? extends Payment> clazz){
+	public IPayment createPayment(Class<? extends IPayment> clazz){
 		try {
 			if(null != clazz)
 				return clazz.newInstance();

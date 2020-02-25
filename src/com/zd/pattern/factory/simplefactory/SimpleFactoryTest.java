@@ -4,7 +4,7 @@ public class SimpleFactoryTest {
 	public static void main(String[] args) {
 		
 		PaymentFactory pf = new PaymentFactory();
-		Payment payment = pf.createPayment(Alipay.class);
+		IPayment payment = pf.createPayment(Alipay.class);
 		payment.pay();
 		
 		

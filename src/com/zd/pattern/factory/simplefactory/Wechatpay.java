@@ -1,6 +1,6 @@
 package com.zd.pattern.factory.simplefactory;
 
-public class Wechatpay implements Payment{
+public class Wechatpay implements IPayment{
 
 	@Override
 	public void pay() {
